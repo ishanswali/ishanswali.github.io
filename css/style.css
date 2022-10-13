@@ -654,22 +654,24 @@ a, a:hover, a:focus, a:active {
     }
 
     #picture{
-        margin-top: 50vh;
-        right: 0;
+        height: 25rem;
+        margin-top: 30vh;
+        right: 15vw;
     }
 
 
     #featuredProject{
-        top: 120vh;
+        top: 80vh;
     }
 
     #exampleimage{
-        top: 130vh;
-        right: 0;
+        top: 120vh;
+        right: 12vw;
+        height: 75vh;
     }
 
     #lowerMenu{
-        top: 260vh;
+        top: 185vh;
     }
 
 }
