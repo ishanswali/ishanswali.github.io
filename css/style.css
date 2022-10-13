@@ -684,7 +684,6 @@ a, a:hover, a:focus, a:active {
 
 @media screen and (max-width: 400px) {
     #landing {
-        background-image:url('myimage.jpg');
         background-position: center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -701,17 +700,17 @@ a, a:hover, a:focus, a:active {
 
     #picture {
         margin-top: 70vh;
-        right: 0;
+        right: 10vw;
     }
 
 
     #featuredProject {
-        top: 160vh;
+        top: 150vh;
     }
 
     #exampleimage {
         top: 150vh;
-        right: 0;
+        right: 10vw;
     }
 
     #lowerMenu {
