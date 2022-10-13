@@ -641,6 +641,10 @@ a, a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 480px){
+
+    #downArrow{
+        top: 30vh;
+    }
     #landing {
         background-image: url("../images/SpaceSmall.jpg");
     }
@@ -671,7 +675,7 @@ a, a:hover, a:focus, a:active {
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     #landing {
         background-image: url("../images/SpaceSmall.jpg");
     }
@@ -687,7 +691,7 @@ a, a:hover, a:focus, a:active {
 
 
     #featuredProject {
-        top: 140vh;
+        top: 160vh;
     }
 
     #exampleimage {
@@ -696,7 +700,7 @@ a, a:hover, a:focus, a:active {
     }
 
     #lowerMenu {
-        top: 280vh;
+        top: 320vh;
     }
 
 }
