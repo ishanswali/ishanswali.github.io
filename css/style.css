@@ -669,3 +669,34 @@ a, a:hover, a:focus, a:active {
     }
 
 }
+
+
+@media screen and (max-width: 380px) {
+    #landing {
+        background-image: url("../images/SpaceSmall.jpg");
+    }
+
+    #helloWords {
+        top: 35vh;
+    }
+
+    #picture {
+        margin-top: 70vh;
+        right: 0;
+    }
+
+
+    #featuredProject {
+        top: 140vh;
+    }
+
+    #exampleimage {
+        top: 150vh;
+        right: 0;
+    }
+
+    #lowerMenu {
+        top: 280vh;
+    }
+
+}
