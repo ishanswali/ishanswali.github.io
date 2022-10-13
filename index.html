@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Ishan Swali</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Ishan Swali" name="author"/>
+    <link href="css/style.css" media="screen" rel="stylesheet">
+    <link href="css/divider.css" media="screen" rel="stylesheet">
+    <link href="css/navbar.css" media="screen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas%20Neue" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space%20Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open%20Sans" rel="stylesheet">
+
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsqZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body onload=' location.href="#landing" '>
+<!--<div id="particles-js"></div>-->
+
+
+<div id="landing">
+    <div id="header">
+        <div id="headerName">
+            <p>Ishan Swali</p>
+        </div>
+
+        <nav class="menu navbar nav-bar" id="nav">
+            <ul>
+                <!--<li><a class="nav-link nav-link-ltr" href="#">Home</a></li>-->
+                <li><a class="nav-link nav-link-ltr" href="#aboutMe">About</a></li>
+                <li><a class="nav-link nav-link-ltr" href="#featuredProject">Featured Project</a></li>
+               <!-- <li><a class="nav-link nav-link-ltr" href="#">Blog</a></li>-->
+                <li><a class="nav-link nav-link-ltr" href="mailto:ishanswali9@gmail.com">Contact</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div id="centralText">
+        <div id="iAm">
+            <div id="restText">Hi! I am</div>
+            <div class="rotating-thing" id="rotating"></div>
+        </div>
+        <div id="subText">
+            <!--   <p>Aerospace + Computer Science</p> -->
+        </div>
+        <a href="mailto:ishanswali9@gmail.com" id="contact">
+            <div>
+                <p>Contact Me</p>
+            </div>
+        </a>
+
+        <div id="downArrow">
+            <a href="#aboutMe"><i aria-hidden="true" class="fa fa-angle-down"></i></a>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+<div id="aboutMe">
+    <div id="content">
+        <div class='reveal' id="aboutMeWords">
+            <p id="helloHeader">Allow me to introduce myself...</p>
+            <p id="helloWords">Hi! <!--👋 -->I'm Ishan Swali. I'm a Senior at Shenendehowa High School. I'm passionate
+                about
+                science and technology, and applying them towards today's aerospace and autonomy challenges. I
+                especially enjoy problem-solving using Robotics and AI.
+                <br><br>
+                I'm a 17-year-old adventurer on the journey to find my path. I aspire to impact billions
+                and
+                take on the world's largest challenges while learning everything I can. I'm currently researching how
+                deep
+                learning and robotics can be applied to autonomous aviation while working towards my private pilot's
+                license.
+
+                <br><br>
+                Finally, I am fascinated by interdisciplinary studies such as cybersecurity, leadership and psychology,
+                and
+                am truly just excited to learn.
+
+                <br><br>
+                If you are interested in my work or want to work on something interesting yourself, reach out through social media or email.</p>
+        </div>
+
+        <div id="aboutMeImages">
+            <img alt="dinosaur" class='reveal' id="picture" src="images/Ishan%20Swali.JPG"/>
+        </div>
+
+    </div>
+    <div id="whiteTriangle1"></div>
+    <div id="whiteTriangle2"></div>
+    <div class="greyTriangles"></div>
+
+</div>
+
+<hr>
+
+
+<div id="featuredProject">
+
+   <div id="featuredContent">
+    <div id="featuredProjectWords" >
+        <div id="featuredHeader" class="reveal">Featured Project</div>
+    </div>
+
+    <div id="featuredDescription">
+    <p>
+        This was a small side project to work on some automation using NASA's Astronomy Picture of the Day (APOD) API. Check it out <a href="https://github.com/ishanswali/NASAAPODTextBot">here</a>.
+    </p>
+    <p>It sends messages through a reconstructed SMS/MMS service built by <a href="https://www.alfredosequeida.com">Alfredo Sequeida</a>.</p>
+
+    <p>
+        The APOD Bot sends a daily message based on a preset timezone, mobile provider, and phone number. It pulls data from the NASA API, reformats it, and sends it through my MMS system.
+    </p>
+        <p>
+            My next step for this project is to create a site where individuals can register for the texting service.
+        </p>
+    </div>
+    <div id="projectImage">
+        <img id="exampleimage" src="images/Example.png" alt="projectexample" />
+    </div>
+
+    <div id="whiteSquare2"></div>
+    <div id="whiteSquare3"></div>
+    <div class="greyTriangles"></div>
+   </div>
+</div>
+<div id="footer">
+    <div class="menu" id="lowerMenu">
+        <ul>
+
+            <li><a class="fa fa-home" href="#landing" id="home"></a>
+            </li>
+            <li><a class="fa fa-envelope-o" href="mailto:ishanswali9@gmail.com"></a>
+            </li>
+            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/ishanswali/" target="_blank"></a></li>
+            <li><a class="fa fa-github" href="https://github.com/ishanswali" target="_blank"></a></li>
+            <!--  <li><a class="fa fa-codepen" href="https://codepen.io/23swalisha" target="_blank"></a></li>
+           <li><a class="fa fa-instagram" href="https://www.instagram.com/ish_swali/" target="_blank"></a></li></li>
+            -->
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/slideIn.js"></script>
+<script>
+
+    const rotating = document.getElementById("rotating")
+    const list = ['Ishan Swali', 'an AI Developer', 'a Roboticist', 'an Aspiring Astronaut', 'an Engineer', 'an Explorer'];
+    const wait = (func, timeout) => {
+        return new Promise(resolve => setTimeout(() => {
+            resolve(func());
+
+        }, timeout));
+    }
+
+    (async () => {
+        let index = 0;
+        while (true) {
+            await wait(() => {
+                rotating.classList.add("show");
+                rotating.textContent = list[index];
+                index = ++index % list.length;
+            }, 1000);
+            await wait(() => {
+                rotating.classList.add("hide");
+            }, 1500)
+
+            await wait(() => {
+                rotating.classList.remove("show");
+                rotating.classList.remove("hide");
+            }, 500);
+        }
+    })()
+
+
+</script>
